@@ -1,0 +1,7 @@
+{
+    "name": "leaky-app",
+    "dependencies": {
+        "express": "^4.17.1",
+        "eslint": "8.0.0"
+    }
+}
