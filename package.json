@@ -1,11 +1,17 @@
 {
   "name": "ship18ion",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "dist/cli/index.js",
   "bin": {
     "ship18ion": "./dist/cli/index.js"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "CONTRIBUTING.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
@@ -21,8 +27,8 @@
     "deployment",
     "linter"
   ],
-  "author": "TRIPLE HASH",
-  "license": "ISC",
+  "author": "champ18ion",
+  "license": "MIT",
   "dependencies": {
     "@babel/parser": "^7.28.5",
     "@babel/traverse": "^7.28.5",
